@@ -18,8 +18,4 @@ public class CommonResult<T> {
     private String msg;
     private T data;
 
-    public CommonResult(int code, String msg) {
-        this.code = code;
-        this.msg = msg;
-    }
 }
